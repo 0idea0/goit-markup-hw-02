@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --title-color: #212121;
   --link-white-color: #ffffff;
+  --link-grey-color: #757575;
 }
 
 .list {
@@ -53,7 +54,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--link-grey-color);
 }
 
 .mail-link:hover,
@@ -66,7 +67,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--link-grey-color);
 }
 
 .tel-link:hover,
@@ -121,7 +122,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--link-grey-color);
 }
 
 /*============= Work section ==============*/
@@ -155,7 +156,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--link-grey-color);
 }
 
 /*============== Footer ============*/
@@ -178,6 +179,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--link-white-color);
+  font-style: normal;
 }
 
 .link-footer {
@@ -186,6 +188,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .map-link:hover,
@@ -230,5 +233,5 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--link-grey-color);
 }
